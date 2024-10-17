@@ -113,7 +113,6 @@ Install the required dependencies via pip:
    ```bash
    pip install -r requirements.txt
    ```
-```
 
 
 
