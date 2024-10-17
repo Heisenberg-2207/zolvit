@@ -1,0 +1,7 @@
+pdfplumber
+Pillow
+pdf2image
+pytesseract
+pandas
+numpy
+tqdm
