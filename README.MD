@@ -172,3 +172,13 @@ The script implements the following error-handling strategies:
 This PDF Invoice Extraction tool provides a robust solution for extracting structured financial data from invoices. By combining `pdfplumber` for text extraction and `Tesseract` for OCR, it can handle a variety of PDF formats. The regex-based data extraction ensures flexibility, and error handling mechanisms make the tool resilient to various PDF structures. 
 
 For scaling, the efficiency of the fallback OCR process could be improved, and parallel processing could be introduced.
+
+### Acknowledgement
+
+I would like to acknowledge the use of several tools and platforms that made this project possible:
+
+- **Google Colab:** For providing an accessible and powerful environment to develop and test our code.
+- **ChatGPT:** For assisting in generating and refining the documentation and code logic.
+- **GitHub Copilot:** For providing intelligent code suggestions and improving our development workflow.
+
+Their contributions have been invaluable in the successful completion of this project.
