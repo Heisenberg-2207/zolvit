@@ -1,5 +1,4 @@
 # PDF Invoice Data Extraction
-
 This project is designed to extract financial data from PDF invoices and store the information in a CSV file. It uses `pdfplumber` to extract text from PDFs and falls back to OCR (Optical Character Recognition) via `Tesseract` for PDFs that contain images or non-extractable text. The extracted information includes details such as taxable amounts, GST amounts, tax rates, invoice numbers, and more.
 
 ## Table of Contents
@@ -10,6 +9,7 @@ This project is designed to extract financial data from PDF invoices and store t
 - [Project Structure](#project-structure)
 - [Output](#output)
 - [Dependencies](#dependencies)
+- [Implementation Details](#implementation-details)
 
 ## Features
 
@@ -114,7 +114,21 @@ Install the required dependencies via pip:
    pip install -r requirements.txt
    ```
 
+## Implementation Details
 
+The code is implemented in Python and uses a combination of `pdfplumber` and `pytesseract` to extract text from PDF invoices. The extracted text is then processed using regular expressions (regex) to find and extract specific financial details.
 
+### Regex Usage
 
+- **Taxable Value**: The regex pattern searches for keywords like "Taxable Value" followed by a numerical value.
+- **SGST, CGST, IGST Amounts**: Patterns look for these terms followed by their respective amounts.
+- **Invoice Number**: The regex identifies patterns that match common invoice number formats.
+- **GSTIN**: Patterns are used to find GSTINs, which follow a specific alphanumeric format.
+- **Tax Rates**: The regex extracts percentages following terms like "SGST", "CGST", and "IGST".
+- **Dates**: Patterns are used to identify dates in various formats.
 
+### Handling Tax Values
+
+The script uses regex to find and sum up the tax values (SGST, CGST, IGST) to calculate the total tax amount. It ensures that all extracted values are correctly formatted and converted to numerical types for accurate calculations.
+
+By leveraging regex, the script can accurately and efficiently extract the required financial details from a variety of invoice formats.

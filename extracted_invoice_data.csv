@@ -1,124 +1,124 @@
-taxable_value,sgst_amount,cgst_amount,igst_amount,sgst_rate(%),cgst_rate(%),igst_rate(%),final_amount,invoice_number,invoice_date,place_of_supply,place_of_origin,gstin_supplier,gstin_recipient,total_discount,tax_amount,tax_rate(%),gstin_recipient_reason
-350.00,0,0,0,0,0,0,350.00,INV-118,30 Jan 2024,"23-MADHYA PRADESH
+sgst_amount,cgst_amount,igst_amount,sgst_rate(%),cgst_rate(%),igst_rate(%),tax_amount,tax_rate(weighted_avg%),taxable_value,final_amount,invoice_number,invoice_date,place_of_supply,place_of_origin,gstin_supplier,gstin_recipient,total_discount,gstin_recipient_reason
+0,0,0,0,0,0,0.00,0,350.00,350.00,INV-118,30 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,not found,0.00,0.00,"Identical to supplier GSTIN, rejected"
-"1,062.56",34.91,34.91,0,6.0,6.0,0,"1,219.00",INV-112,29 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,not found,"Identical to supplier GSTIN, rejected"
+"34.91,43.26","34.91,43.26",0,"6.0,9.0","6.0,9.0",0,156.34,7.66,"1,062.56","1,219.00",INV-112,29 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,242.09,69.82,12.00,"Identical to supplier GSTIN, rejected"
-"1,486.02",133.74,133.74,0,9.0,9.0,0,"1,754.00",INV-141,06 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,242.09,"Identical to supplier GSTIN, rejected"
+133.74,133.74,0,9.0,9.0,0,267.48,9.00,"1,486.02","1,754.00",INV-141,06 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,296.50,267.48,18.00,"Identical to supplier GSTIN, rejected"
-"1,483.32",83.50,83.50,0,6.0,6.0,0,"1,667.00",INV-117,01 Feb 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,296.50,"Identical to supplier GSTIN, rejected"
+"83.50,8.26","83.50,8.26",0,"6.0,9.0","6.0,9.0",0,183.52,6.27,"1,483.32","1,667.00",INV-117,01 Feb 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,290.02,167.00,12.00,"Identical to supplier GSTIN, rejected"
-874.58,78.71,78.71,0,9.0,9.0,0,"1,032.00",INV-142,07 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,290.02,"Identical to supplier GSTIN, rejected"
+78.71,78.71,0,9.0,9.0,0,157.42,9.00,874.58,"1,032.00",INV-142,07 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,258.00,157.42,18.00,"Identical to supplier GSTIN, rejected"
-987.33,53.92,53.92,0,6.0,6.0,0,"1,111.00",INV-103,27 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,258.00,"Identical to supplier GSTIN, rejected"
+"53.92,7.97","53.92,7.97",0,"6.0,9.0","6.0,9.0",0,123.78,6.39,987.33,"1,111.00",INV-103,27 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,155.71,107.84,12.00,"Identical to supplier GSTIN, rejected"
-943.77,0,0,0,0,0,0,944.00,INV-127,23 Feb 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,155.71,"Identical to supplier GSTIN, rejected"
+0,0,0,0,0,0,0.00,0,943.77,944.00,INV-127,23 Feb 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,662.23,0.00,0.00,"Identical to supplier GSTIN, rejected"
-691.22,22.19,22.19,0,6.0,6.0,0,793.00,INV-135,01 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,662.23,"Identical to supplier GSTIN, rejected"
+"22.19,28.92","22.19,28.92",0,"6.0,9.0","6.0,9.0",0,102.22,7.70,691.22,793.00,INV-135,01 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,117.28,44.38,12.00,"Identical to supplier GSTIN, rejected"
-"3,921.54",352.94,352.94,0,9.0,9.0,0,"4,627.00",INV-98,16 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,117.28,"Identical to supplier GSTIN, rejected"
+352.94,352.94,0,9.0,9.0,0,705.88,9.00,"3,921.54","4,627.00",INV-98,16 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,675.58,705.88,18.00,"Identical to supplier GSTIN, rejected"
-"3,746.82",12.23,12.23,0,2.5,2.5,0,"4,015.00",INV-147,29 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,675.58,"Identical to supplier GSTIN, rejected"
+"12.23,122.11","12.23,122.11",0,"2.5,9.0","2.5,9.0",0,268.68,8.41,"3,746.82","4,015.00",INV-147,29 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,652.31,24.46,5.00,"Identical to supplier GSTIN, rejected"
-"1,117.05",50.91,50.91,0,6.0,6.0,0,"1,267.00",INV-129,23 Feb 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,652.31,"Identical to supplier GSTIN, rejected"
+"50.91,24.16","50.91,24.16",0,"6.0,9.0","6.0,9.0",0,150.14,6.97,"1,117.05","1,267.00",INV-129,23 Feb 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,172.80,101.82,12.00,"Identical to supplier GSTIN, rejected"
-"1,607.67",53.92,53.92,0,6.0,6.0,0,"1,843.00",INV-114,29 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,172.80,"Identical to supplier GSTIN, rejected"
+"53.92,63.80","53.92,63.80",0,"6.0,9.0","6.0,9.0",0,235.44,7.63,"1,607.67","1,843.00",INV-114,29 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,338.71,107.84,12.00,"Identical to supplier GSTIN, rejected"
-"1,076.40",36.39,36.39,0,6.0,6.0,0,"1,234.00",INV-148,30 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,338.71,"Identical to supplier GSTIN, rejected"
+"36.39,42.28","36.39,42.28",0,"6.0,9.0","6.0,9.0",0,157.34,7.61,"1,076.40","1,234.00",INV-148,30 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,168.24,72.78,12.00,"Identical to supplier GSTIN, rejected"
-"1,917.86",111.47,111.47,0,6.0,6.0,0,"2,141.00",INV-145,28 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,168.24,"Identical to supplier GSTIN, rejected"
+111.47,111.47,0,6.0,6.0,0,222.94,6.00,"1,917.86","2,141.00",INV-145,28 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,520.20,222.94,12.00,"Identical to supplier GSTIN, rejected"
-"1,972.81",177.55,177.55,0,9.0,9.0,0,"2,328.00",INV-105,27 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,520.20,"Identical to supplier GSTIN, rejected"
+177.55,177.55,0,9.0,9.0,0,355.10,9.00,"1,972.81","2,328.00",INV-105,27 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,466.08,355.10,18.00,"Identical to supplier GSTIN, rejected"
-"1,125.52",61.28,61.28,0,6.0,6.0,0,"1,115.00",INV-124,10 Feb 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,466.08,"Identical to supplier GSTIN, rejected"
+"61.28,9.38","61.28,9.38",0,"6.0,9.0","6.0,9.0",0,141.32,6.40,"1,125.52","1,115.00",INV-124,10 Feb 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,152.02,122.56,12.00,"Identical to supplier GSTIN, rejected"
-"6,563.98",133.50,133.50,0,6.0,6.0,0,"7,612.00",INV-143,28 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,152.02,"Identical to supplier GSTIN, rejected"
+"133.50,390.51","133.50,390.51",0,"6.0,9.0","6.0,9.0",0,1048.02,8.24,"6,563.98","7,612.00",INV-143,28 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,880.00,267.00,12.00,"Identical to supplier GSTIN, rejected"
-"5,558.30",61.28,61.28,0,6.0,6.0,0,"6,219.00",INV-104,27 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,880.00,"Identical to supplier GSTIN, rejected"
+"61.28,269.01","61.28,269.01",0,"6.0,9.0","6.0,9.0",0,660.58,8.44,"5,558.30","6,219.00",INV-104,27 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,580.96,122.56,12.00,"Identical to supplier GSTIN, rejected"
-"2,933.70",89.99,89.99,0,6.0,6.0,0,"3,372.00",INV-115,29 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,580.96,"Identical to supplier GSTIN, rejected"
+"89.99,129.05","89.99,129.05",0,"6.0,9.0","6.0,9.0",0,438.08,7.77,"2,933.70","3,372.00",INV-115,29 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,652.06,179.98,12.00,"Identical to supplier GSTIN, rejected"
-999.36,31.28,31.28,0,6.0,6.0,0,"1,148.00",INV-140,06 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,652.06,"Identical to supplier GSTIN, rejected"
+"31.28,43.02","31.28,43.02",0,"6.0,9.0","6.0,9.0",0,148.60,7.74,999.36,"1,148.00",INV-140,06 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,286.99,62.56,12.00,"Identical to supplier GSTIN, rejected"
-"2,232.33",200.91,200.91,0,9.0,9.0,0,"2,634.00",INV-107,29 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,286.99,"Identical to supplier GSTIN, rejected"
+200.91,200.91,0,9.0,9.0,0,401.82,9.00,"2,232.33","2,634.00",INV-107,29 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,464.85,401.82,18.00,"Identical to supplier GSTIN, rejected"
-870.93,0,0,34.72,0,0,12.0,"1,010.00",INV-121,29 Jan 2024,"27-MAHARASHTRA
+ (inferred from supply)",23AADCU2395N1ZY,not present,464.85,"Identical to supplier GSTIN, rejected"
+0,0,"34.72,104.68",0,0,"12.0,18.0",139.40,16.51,870.93,"1,010.00",INV-121,29 Jan 2024,"27-MAHARASHTRA
 ","27-MAHARASHTRA
- (inferred from supply)",23AADCU2395N1ZY,not present,285.94,34.72,12.00,"Identical to supplier GSTIN, rejected"
-"2,161.54",4.94,4.94,0,6.0,6.0,0,"2,546.00",INV-102,24 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,285.94,"Identical to supplier GSTIN, rejected"
+"4.94,187.13","4.94,187.13",0,"6.0,9.0","6.0,9.0",0,384.14,8.92,"2,161.54","2,546.00",INV-102,24 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,495.82,9.88,12.00,"Identical to supplier GSTIN, rejected"
-"1,837.72",89.99,89.99,0,6.0,6.0,0,"2,018.00",INV-116,29 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,495.82,"Identical to supplier GSTIN, rejected"
+89.99,89.99,0,6.0,6.0,0,179.98,6.00,"1,837.72","2,018.00",INV-116,29 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,275.14,179.98,12.00,"Identical to supplier GSTIN, rejected"
-"3,200.20",59.67,59.67,0,6.0,6.0,0,"3,654.00",INV-101,24 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,275.14,"Identical to supplier GSTIN, rejected"
+"59.67,167.01","59.67,167.01",0,"6.0,9.0","6.0,9.0",0,453.36,8.21,"3,200.20","3,654.00",INV-101,24 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,597.94,119.34,12.00,"Identical to supplier GSTIN, rejected"
-"2,076.27",186.86,186.86,0,9.0,9.0,0,"2,450.00",INV-128,23 Feb 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,597.94,"Identical to supplier GSTIN, rejected"
+186.86,186.86,0,9.0,9.0,0,373.72,9.00,"2,076.27","2,450.00",INV-128,23 Feb 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,550.00,373.72,18.00,"Identical to supplier GSTIN, rejected"
-"3,348.16",74.31,74.31,0,6.0,6.0,0,"3,877.00",INV-146,29 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,550.00,"Identical to supplier GSTIN, rejected"
+"74.31,189.86","74.31,189.86",0,"6.0,9.0","6.0,9.0",0,528.34,8.16,"3,348.16","3,877.00",INV-146,29 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,674.48,148.62,12.00,"Identical to supplier GSTIN, rejected"
-"1,499.80",89.99,89.99,0,6.0,6.0,0,"1,680.00",INV-110,29 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,674.48,"Identical to supplier GSTIN, rejected"
+89.99,89.99,0,6.0,6.0,0,179.98,6.00,"1,499.80","1,680.00",INV-110,29 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,229.06,179.98,12.00,"Identical to supplier GSTIN, rejected"
-"1,275.34",114.78,114.78,0,9.0,9.0,0,"1,505.00",INV-138,06 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,229.06,"Identical to supplier GSTIN, rejected"
+114.78,114.78,0,9.0,9.0,0,229.56,9.00,"1,275.34","1,505.00",INV-138,06 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,308.10,229.56,18.00,"Identical to supplier GSTIN, rejected"
-370.64,33.36,33.36,0,9.0,9.0,0,437.00,INV-149,22 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,308.10,"Identical to supplier GSTIN, rejected"
+33.36,33.36,0,9.0,9.0,0,66.72,9.00,370.64,437.00,INV-149,22 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,59.64,66.72,18.00,"Identical to supplier GSTIN, rejected"
-898.73,53.92,53.92,0,6.0,6.0,0,"1,007.00",INV-113,29 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,59.64,"Identical to supplier GSTIN, rejected"
+53.92,53.92,0,6.0,6.0,0,107.84,6.00,898.73,"1,007.00",INV-113,29 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,137.26,107.84,12.00,"Identical to supplier GSTIN, rejected"
-"2,091.55",79.75,79.75,0,6.0,6.0,0,"2,334.00",INV-99,16 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,137.26,"Identical to supplier GSTIN, rejected"
+"79.75,41.61","79.75,41.61",0,"6.0,9.0","6.0,9.0",0,242.72,7.03,"2,091.55","2,334.00",INV-99,16 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,438.11,159.50,12.00,"Identical to supplier GSTIN, rejected"
-"5,374.02",186.70,186.70,0,6.0,6.0,0,"5,791.00",INV-73,15 Feb 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,438.11,"Identical to supplier GSTIN, rejected"
+"186.70,21.75","186.70,21.75",0,"6.0,9.0","6.0,9.0",0,416.90,6.31,"5,374.02","5,791.00",INV-73,15 Feb 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,"3,796.34",373.40,12.00,"Identical to supplier GSTIN, rejected"
-"2,302.15",14.61,14.61,0,6.0,6.0,0,"2,702.00",INV-133,01 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,"3,796.34","Identical to supplier GSTIN, rejected"
+"14.61,185.27","14.61,185.27",0,"6.0,9.0","6.0,9.0",0,399.76,8.78,"2,302.15","2,702.00",INV-133,01 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,471.03,29.22,12.00,"Identical to supplier GSTIN, rejected"
-961.36,86.52,86.52,0,9.0,9.0,0,"1,134.00",INV-136,15 Feb 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,471.03,"Identical to supplier GSTIN, rejected"
+86.52,86.52,0,9.0,9.0,0,173.04,9.00,961.36,"1,134.00",INV-136,15 Feb 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,283.60,173.04,18.00,"Identical to supplier GSTIN, rejected"
-"21,914.71",731.95,731.95,0,6.0,6.0,0,"24,047.00",INV-144,28 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,283.60,"Identical to supplier GSTIN, rejected"
+"731.95,334.40","731.95,334.40",0,"6.0,9.0","6.0,9.0",0,2132.70,6.94,"21,914.71","24,047.00",INV-144,28 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,933.16,1463.90,12.00,"Identical to supplier GSTIN, rejected"
-723.77,65.14,65.14,0,9.0,9.0,0,854.00,INV-134,01 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,933.16,"Identical to supplier GSTIN, rejected"
+65.14,65.14,0,9.0,9.0,0,130.28,9.00,723.77,854.00,INV-134,01 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,44.95,130.28,18.00,"Identical to supplier GSTIN, rejected"
-990.46,53.92,53.92,0,6.0,6.0,0,"1,115.00",INV-123,08 Feb 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,44.95,"Identical to supplier GSTIN, rejected"
+"53.92,8.26","53.92,8.26",0,"6.0,9.0","6.0,9.0",0,124.36,6.40,990.46,"1,115.00",INV-123,08 Feb 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,152.02,107.84,12.00,"Identical to supplier GSTIN, rejected"
-"1,108.27",23.52,23.52,0,6.0,6.0,0,"1,284.00",INV-100,24 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,152.02,"Identical to supplier GSTIN, rejected"
+"23.52,64.46","23.52,64.46",0,"6.0,9.0","6.0,9.0",0,175.96,8.20,"1,108.27","1,284.00",INV-100,24 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,298.77,47.04,12.00,"Identical to supplier GSTIN, rejected"
-394.51,35.51,35.51,0,9.0,9.0,0,466.00,INV-150,22 Mar 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,298.77,"Identical to supplier GSTIN, rejected"
+35.51,35.51,0,9.0,9.0,0,71.02,9.00,394.51,466.00,INV-150,22 Mar 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,63.48,71.02,18.00,"Identical to supplier GSTIN, rejected"
-"3,938.46",53.92,53.92,0,6.0,6.0,0,"4,063.00",INV-106,27 Jan 2024,"23-MADHYA PRADESH
+ (inferred from supply)",23AADCU2395N1ZY,not present,63.48,"Identical to supplier GSTIN, rejected"
+"53.92,8.26","53.92,8.26",0,"6.0,9.0","6.0,9.0",0,124.36,6.40,"3,938.46","4,063.00",INV-106,27 Jan 2024,"23-MADHYA PRADESH
 ","23-MADHYA PRADESH
- (inferred from supply)",23AADCU2395N1ZY,not present,602.02,107.84,12.00,"Identical to supplier GSTIN, rejected"
+ (inferred from supply)",23AADCU2395N1ZY,not present,602.02,"Identical to supplier GSTIN, rejected"
