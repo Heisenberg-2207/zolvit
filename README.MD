@@ -177,8 +177,8 @@ For scaling, the efficiency of the fallback OCR process could be improved, and p
 
 I would like to acknowledge the use of several tools and platforms that made this project possible:
 
-- **Google Colab:** For providing an accessible and powerful environment to develop and test our code.
+- **Google Colab:** For providing an accessible and powerful environment to develop and test my code.
 - **ChatGPT:** For assisting in generating and refining the documentation and code logic.
-- **GitHub Copilot:** For providing intelligent code suggestions and improving our development workflow.
+- **GitHub Copilot:** For providing intelligent code suggestions and improving my development workflow.
 
 Their contributions have been invaluable in the successful completion of this project.
