@@ -36,7 +36,7 @@ Clone the repository:
    git clone https://github.com/your-repo/pdf-invoice-extraction.git
    cd pdf-invoice-extraction
    ```
-````markdown
+   
 Install the required Python packages using pip:
    ```bash
    pip install -r requirements.txt
