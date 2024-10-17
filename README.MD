@@ -36,7 +36,7 @@ Clone the repository:
    git clone https://github.com/your-repo/pdf-invoice-extraction.git
    cd pdf-invoice-extraction
    ```
-   
+
 Install the required Python packages using pip:
    ```bash
    pip install -r requirements.txt
@@ -113,10 +113,6 @@ Install the required dependencies via pip:
    ```bash
    pip install -r requirements.txt
    ```
-
-## License
-
-This project is licensed under the MIT License.
 ```
 
 
