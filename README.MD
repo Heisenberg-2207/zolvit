@@ -185,7 +185,7 @@ Due to time constraints, these features were not implemented in the current vers
 from transformers import pipeline
 
 # Load the LLM for data interpretation and cleaning
-llm = pipeline('text-generation', model='your-llm-model')
+llm = pipeline('text-generation', model='llm-model')
 
 def clean_and_predict(invoice_data):
     # Process the invoice data for cleaning
