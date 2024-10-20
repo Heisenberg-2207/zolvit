@@ -167,6 +167,18 @@ The script implements the following error-handling strategies:
 
 4. **Duplicate GSTIN Check:** The script checks if the supplier’s and recipient’s GSTINs are identical, which is flagged as an error and handled accordingly (setting recipient GSTIN as `'not present'`).
 
+### Future Scope
+As the demand for automated data extraction from invoices and financial documents continues to grow, integrating Large Language Models (LLMs) into the existing workflow presents exciting opportunities for enhancement. Here are some potential future developments for the PDF Invoice Extraction project:
+
+#### Integration of LLMs for Prediction and Data Cleaning
+1. **Contextual Data Interpretation:** LLMs can be utilized to improve the contextual understanding of extracted text, allowing for more accurate identification of financial terms and values. For instance, an LLM can be trained to recognize variations in invoice formats and to infer missing data points based on context. This could significantly enhance the accuracy of data extraction and reduce the reliance on hard-coded regex patterns, which may not cover all possible invoice layouts.
+
+2. **Intelligent Data Cleaning:** The integration of LLMs can facilitate advanced data cleaning processes. For instance, when cleaning up extracted fields, an LLM can detect inconsistencies and anomalies (e.g., incorrect GSTIN formats or mismatched invoice numbers). It can suggest corrections or automatically clean the data based on learned patterns from previously validated invoices.
+
+3. **Predictive Modeling:** LLMs can be used to develop predictive models that assess the likelihood of invoice data accuracy based on historical data. By analyzing previous invoices and their extracted information, an LLM can predict potential errors in new invoices, such as anomalies in tax amounts or unusual invoice patterns. This can further enhance data integrity before final outputs are generated.
+
+4. **Natural Language Queries:** LLMs can enable users to interact with the data using natural language queries. Users could ask specific questions about the invoices (e.g., "What is the total GST amount for invoices from June?"), and the system could provide responses based on the extracted data, making it more user-friendly and accessible.
+
 ### Conclusion
 
 This PDF Invoice Extraction tool provides a robust solution for extracting structured financial data from invoices. By combining `pdfplumber` for text extraction and `Tesseract` for OCR, it can handle a variety of PDF formats. The regex-based data extraction ensures flexibility, and error handling mechanisms make the tool resilient to various PDF structures. 
