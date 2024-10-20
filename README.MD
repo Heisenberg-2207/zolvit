@@ -168,16 +168,48 @@ The script implements the following error-handling strategies:
 4. **Duplicate GSTIN Check:** The script checks if the supplier’s and recipient’s GSTINs are identical, which is flagged as an error and handled accordingly (setting recipient GSTIN as `'not present'`).
 
 ### Future Scope
-As the demand for automated data extraction from invoices and financial documents continues to grow, integrating Large Language Models (LLMs) into the existing workflow presents exciting opportunities for enhancement. Here are some potential future developments for the PDF Invoice Extraction project:
+As demand for automated data extraction from invoices grows, integrating Large Language Models (LLMs) into the workflow offers exciting enhancements. Here are some potential developments for the PDF Invoice Extraction project:
 
 #### Integration of LLMs for Prediction and Data Cleaning
-1. **Contextual Data Interpretation:** LLMs can be utilized to improve the contextual understanding of extracted text, allowing for more accurate identification of financial terms and values. For instance, an LLM can be trained to recognize variations in invoice formats and to infer missing data points based on context. This could significantly enhance the accuracy of data extraction and reduce the reliance on hard-coded regex patterns, which may not cover all possible invoice layouts.
+1. **Contextual Data Interpretation:** LLMs can improve the understanding of extracted text, enhancing the identification of financial terms and values while reducing reliance on hard-coded regex patterns.
 
-2. **Intelligent Data Cleaning:** The integration of LLMs can facilitate advanced data cleaning processes. For instance, when cleaning up extracted fields, an LLM can detect inconsistencies and anomalies (e.g., incorrect GSTIN formats or mismatched invoice numbers). It can suggest corrections or automatically clean the data based on learned patterns from previously validated invoices.
+2. **Intelligent Data Cleaning:** LLMs can detect inconsistencies in extracted fields (e.g., incorrect GSTIN formats) and suggest corrections based on learned patterns from validated invoices.
 
-3. **Predictive Modeling:** LLMs can be used to develop predictive models that assess the likelihood of invoice data accuracy based on historical data. By analyzing previous invoices and their extracted information, an LLM can predict potential errors in new invoices, such as anomalies in tax amounts or unusual invoice patterns. This can further enhance data integrity before final outputs are generated.
+3. **Predictive Modeling:** By analyzing historical data, LLMs can predict potential errors in new invoices, such as anomalies in tax amounts, improving data integrity before final outputs are generated.
 
-4. **Natural Language Queries:** LLMs can enable users to interact with the data using natural language queries. Users could ask specific questions about the invoices (e.g., "What is the total GST amount for invoices from June?"), and the system could provide responses based on the extracted data, making it more user-friendly and accessible.
+4. **Natural Language Queries:** LLMs can allow users to interact with the data using natural language queries (e.g., "What is the total GST amount for invoices from June?"), making the system more user-friendly and accessible.
+
+Due to time constraints, these features were not implemented in the current version of the project. However, a rough code structure for integrating LLMs could look like this:
+
+```py
+from transformers import pipeline
+
+# Load the LLM for data interpretation and cleaning
+llm = pipeline('text-generation', model='your-llm-model')
+
+def clean_and_predict(invoice_data):
+    # Process the invoice data for cleaning
+    cleaned_data = {}
+    
+    for field, value in invoice_data.items():
+        # Use the LLM to detect and suggest corrections
+        response = llm(f"Suggest a correction for the field {field}: {value}")
+        cleaned_data[field] = response[0]['generated_text']
+        
+    return cleaned_data
+
+def query_data(data, query):
+    # Use the LLM to interpret user queries and retrieve data
+    response = llm(f"Answer the following query based on the invoice data: {query}")
+    return response[0]['generated_text']
+
+# Example usage
+invoice_data = {'gstin_supplier': '123456789', 'invoice_number': 'INV-001'}
+cleaned_invoice = clean_and_predict(invoice_data)
+user_query = "What is the total GST amount for June invoices?"
+answer = query_data(invoice_data, user_query)
+
+```
 
 ### Conclusion
 
