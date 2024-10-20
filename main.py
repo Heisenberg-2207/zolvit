@@ -206,11 +206,7 @@ def process_pdfs_in_folder(folder_path, output_csv_path):
 
 # --- Run the process in the /content folder ---
 folder_path = '/content/'  # Colab's default directory where uploaded files are placed
-output_csv_path = os.path.join(folder_path, 'extracted_invoice_data3.csv')
+output_csv_path = os.path.join(folder_path, 'extracted_invoice_data.csv')
 
 # Run the processing function
 process_pdfs_in_folder(folder_path, output_csv_path)
-
-# Uncomment below if running in Google Colab to download the CSV file:
-# from google.colab import files
-# files.download(output_csv_path)
